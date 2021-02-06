@@ -69,8 +69,8 @@ val quotefile = File("quote_database.txt") //My file I used was titled quote_dat
         var author: String
         var check: String?
 
-        //This loop will prompt the user for input for the quote and the author of that quote.
-        //It needs to iterate through at least once, but if the user typed in something wrong it will allow them to go back through.
+        /*This loop will prompt the user for input for the quote and the author of that quote.
+        It needs to iterate through at least once, but if the user typed in something wrong it will allow them to go back through.*/
         do{
             println("Please enter what quote you would like to enter.\n For example: 'Moses supposes his toeses are roses.'")
             quote = readLine()!!
